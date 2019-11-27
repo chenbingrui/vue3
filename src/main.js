@@ -4,6 +4,8 @@ import Vue from 'vue'
 
 import './lib/mui/css/mui.min.css'
 
+
+
 // 按需导入 mint-ui 组件
 import { Header } from 'mint-ui'
 //注册到 Vue 上面
