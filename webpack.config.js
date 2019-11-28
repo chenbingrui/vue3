@@ -34,7 +34,7 @@ module.exports = {
             //匹配 scss 文件
             { test:/\.scss$/,use:['style-loader','css-loader','sass-loader']},
             // 匹配图片格式
-            { test:/\.(png|jpg|jpeg)$/,use:'url-loader?limit=8000&name=[hash:8]-[name]-[ext]'},
+            { test:/\.(png|jpg|jpeg)$/,use:'url-loader?limit=9000&name=[hash:8]-[name]-[ext]'},
             // 匹配高级 js 语法 排除正常语法
             { test:/\.js$/,use:'babel-loader',exclude:/node_modules/},
             //匹配vue文件
